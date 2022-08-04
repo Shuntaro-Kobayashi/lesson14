@@ -11,5 +11,5 @@ echo "hello" > /tmp/$$-ans
 echo "world" >> /tmp/$$-ans
 diff /tmp/$$-ans /tmp/$$-result || ERROR_EXIT "result err"
 
-echo "テストクリア"
+echo "テストクリアしました"
 rm -f /tmp/$$-*
